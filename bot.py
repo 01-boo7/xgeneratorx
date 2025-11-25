@@ -156,6 +156,7 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
             parse_mode=ParseMode.MARKDOWN
         )
     
+    
     # معالجة اختيار الكمية وتوليد البطاقات
     elif callback_data.startswith('qty_'):
         quantity = int(callback_data.replace('qty_', ''))
@@ -187,6 +188,63 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         )
         
         logger.info(f"Generated {quantity} {card_type} cards for user {query.from_user.id}")
+    
+    # معالجة زر Re-Gen
+    elif callback_data.startswith('regen_'):
+        original_card = callback_data.replace('regen_', '')
+        
+        await query.answer("🔄 جاري إعادة التوليد...")
+        await query.edit_message_text("⏳ جاري التوليد...")
+        
+        # تحليل البطاقة الأصلية
+        card_info = parse_card_format(original_card)
+        
+        if card_info:
+            # توليد 10 بطاقات جديدة
+            cards_list = []
+            for _ in range(10):
+                new_card = regenerate_card(card_info)
+                output = format_card_output(new_card)
+                cards_list.append(output)
+            
+            # معلومات البطاقة
+            card_type = detect_card_type(card_info['card_number'])
+            bin_number = card_info['card_number'][:6]
+            
+            # تنسيق الرسالة
+            response = f"**🎴 Generator Card**\n\n"
+            response += f"**Bin #:** `{original_card}`\n"
+            response += "```\n"
+            for card in cards_list:
+                response += f"{card}\n"
+            response += "```\n\n"
+            
+            # معلومات إضافية
+            response += f"**ℹ️ Info:**\n"
+            response += f"• Type: {card_type}\n"
+            response += f"• BIN: {bin_number}\n"
+            response += f"• Format: CREDIT CARD\n\n"
+            
+            # معلومات المولد
+            user_name = query.from_user.first_name or "User"
+            import datetime
+            time_now = datetime.datetime.now().strftime("%I:%M %p")
+            response += f"**Gen by:** {user_name} → {time_now}\n"
+            
+            # زر Re-Gen
+            from telegram import InlineKeyboardButton, InlineKeyboardMarkup
+            keyboard = [[InlineKeyboardButton("🔄 Re-Gen", callback_data=f'regen_{original_card}')]]
+            reply_markup = InlineKeyboardMarkup(keyboard)
+            
+            # إرسال النتيجة
+            await query.edit_message_text(
+                response,
+                parse_mode=ParseMode.MARKDOWN,
+                reply_markup=reply_markup
+            )
+            
+            logger.info(f"Re-generated 10 cards for user {query.from_user.id}")
+
 
 
 async def handle_card_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -198,40 +256,55 @@ async def handle_card_message(update: Update, context: ContextTypes.DEFAULT_TYPE
     
     if card_info:
         # البطاقة بالصيغة الصحيحة
-        await update.message.reply_text("⏳ جاري المعالجة...")
+        msg = await update.message.reply_text("⏳ جاري التوليد...")
         
-        # توليد بطاقة جديدة
-        new_card = regenerate_card(card_info)
-        card_type = detect_card_type(new_card['card_number'])
+        # حفظ البطاقة الأصلية في context للـ Re-Gen
+        context.user_data['original_card'] = user_message
         
-        # تنسيق الناتج
-        output = format_card_output(new_card)
+        # توليد 10 بطاقات
+        cards_list = []
+        for _ in range(10):
+            new_card = regenerate_card(card_info)
+            output = format_card_output(new_card)
+            cards_list.append(output)
         
-        response = f"""✨ **تم توليد البطاقة بنجاح!**
-
-📥 **الإدخال:**
-`{user_message}`
-
-📤 **الناتج:**
-`{output}`
-
-📊 **التفاصيل:**
-• النوع: {card_type}
-• آخر 4 أرقام: `{card_info['card_number'][-4:]}` → `{new_card['card_number'][-4:]}`
-• CVV: `{card_info['cvv']}` → `{new_card['cvv']}`
-• التاريخ: `{card_info['month']}/{card_info['year']}` (بدون تغيير)
-
-⚠️ للاختبار فقط - ليست بطاقات حقيقية
-
-💡 أرسل بطاقة أخرى أو استخدم /generate
-"""
+        # معلومات البطاقة
+        card_type = detect_card_type(card_info['card_number'])
+        bin_number = card_info['card_number'][:6]
         
-        await update.message.reply_text(
+        # تنسيق الرسالة مثل الصورة
+        response = f"**🎴 Generator Card**\n\n"
+        response += f"**Bin #:** `{user_message}`\n"
+        response += "```\n"
+        for idx, card in enumerate(cards_list, 1):
+            response += f"{card}\n"
+        response += "```\n\n"
+        
+        # معلومات إضافية
+        response += f"**ℹ️ Info:**\n"
+        response += f"• Type: {card_type}\n"
+        response += f"• BIN: {bin_number}\n"
+        response += f"• Format: CREDIT CARD\n\n"
+        
+        # معلومات المولد
+        user_name = update.effective_user.first_name or "User"
+        import datetime
+        time_now = datetime.datetime.now().strftime("%I:%M %p")
+        response += f"**Gen by:** {user_name} → {time_now}\n"
+        
+        # زر Re-Gen
+        from telegram import InlineKeyboardButton, InlineKeyboardMarkup
+        keyboard = [[InlineKeyboardButton("🔄 Re-Gen", callback_data=f'regen_{user_message}')]]
+        reply_markup = InlineKeyboardMarkup(keyboard)
+        
+        # إرسال النتيجة
+        await msg.edit_text(
             response,
-            parse_mode=ParseMode.MARKDOWN
+            parse_mode=ParseMode.MARKDOWN,
+            reply_markup=reply_markup
         )
         
-        logger.info(f"Processed card regeneration for user {update.effective_user.id}")
+        logger.info(f"Generated 10 cards for user {update.effective_user.id}")
     else:
         # الرسالة ليست بطاقة أو بصيغة خاطئة - نتجاهلها
         pass
