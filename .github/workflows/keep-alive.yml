@@ -1,0 +1,14 @@
+name: Keep Telegram Bot Alive
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+jobs:
+  ping-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Replit Bot
+        run: |
+          curl -s "https://xgeneratorx.aisikaa01.repl.co/" || echo "Ping OK"
