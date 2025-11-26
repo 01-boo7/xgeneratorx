@@ -1,0 +1,584 @@
+{
+  "515462": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 11:13:05",
+    "last_used": "2025-11-25 15:47:03",
+    "usage_count": 4
+  },
+  "426684": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 10:14:43",
+    "last_used": "2025-11-25 10:40:15",
+    "usage_count": 4
+  },
+  "535666": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 10:15:30",
+    "last_used": "2025-11-25 10:35:33",
+    "usage_count": 2
+  },
+  "516840": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 10:15:47",
+    "last_used": "2025-11-25 10:39:48",
+    "usage_count": 3
+  },
+  "466160": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 10:37:10",
+    "last_used": "2025-11-25 10:40:03",
+    "usage_count": 3
+  },
+  "440393": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 10:40:53",
+    "last_used": "2025-11-25 11:36:36",
+    "usage_count": 3
+  },
+  "559767": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 10:41:28",
+    "last_used": "2025-11-25 10:41:28",
+    "usage_count": 1
+  },
+  "422061": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 10:43:18",
+    "last_used": "2025-11-25 16:27:36",
+    "usage_count": 5
+  },
+  "546616": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 10:44:36",
+    "last_used": "2025-11-25 10:44:36",
+    "usage_count": 1
+  },
+  "543013": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 10:44:51",
+    "last_used": "2025-11-25 10:44:51",
+    "usage_count": 1
+  },
+  "526498": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 10:45:42",
+    "last_used": "2025-11-25 10:46:15",
+    "usage_count": 3
+  },
+  "557361": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 10:46:20",
+    "last_used": "2025-11-25 10:46:20",
+    "usage_count": 1
+  },
+  "442756": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 10:46:49",
+    "last_used": "2025-11-25 11:46:00",
+    "usage_count": 3
+  },
+  "533516": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 10:47:10",
+    "last_used": "2025-11-25 10:47:10",
+    "usage_count": 1
+  },
+  "541496": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 10:47:26",
+    "last_used": "2025-11-25 10:47:26",
+    "usage_count": 1
+  },
+  "559888": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 10:47:54",
+    "last_used": "2025-11-25 10:47:54",
+    "usage_count": 1
+  },
+  "484281": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 10:48:37",
+    "last_used": "2025-11-25 10:48:37",
+    "usage_count": 1
+  },
+  "451245": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 10:49:07",
+    "last_used": "2025-11-25 11:49:54",
+    "usage_count": 2
+  },
+  "458009": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 10:50:57",
+    "last_used": "2025-11-25 10:51:24",
+    "usage_count": 2
+  },
+  "542432": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 10:51:31",
+    "last_used": "2025-11-25 10:52:32",
+    "usage_count": 2
+  },
+  "536058": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 10:51:53",
+    "last_used": "2025-11-25 10:51:53",
+    "usage_count": 1
+  },
+  "414720": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 10:52:15",
+    "last_used": "2025-11-25 15:52:27",
+    "usage_count": 2
+  },
+  "412777": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 10:52:39",
+    "last_used": "2025-11-25 10:52:39",
+    "usage_count": 1
+  },
+  "434559": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 10:52:57",
+    "last_used": "2025-11-25 11:11:57",
+    "usage_count": 2
+  },
+  "492913": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 10:53:14",
+    "last_used": "2025-11-25 10:53:14",
+    "usage_count": 1
+  },
+  "551827": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 10:53:38",
+    "last_used": "2025-11-25 15:52:01",
+    "usage_count": 3
+  },
+  "555270": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 10:57:55",
+    "last_used": "2025-11-25 11:07:44",
+    "usage_count": 2
+  },
+  "526396": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 11:07:44",
+    "last_used": "2025-11-25 11:27:58",
+    "usage_count": 2
+  },
+  "543480": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 11:07:45",
+    "last_used": "2025-11-25 11:07:45",
+    "usage_count": 1
+  },
+  "513076": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 11:07:45",
+    "last_used": "2025-11-25 11:07:45",
+    "usage_count": 1
+  },
+  "469656": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 11:09:14",
+    "last_used": "2025-11-25 11:09:14",
+    "usage_count": 1
+  },
+  "464132": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 11:10:39",
+    "last_used": "2025-11-25 11:10:39",
+    "usage_count": 1
+  },
+  "451015": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 11:12:26",
+    "last_used": "2025-11-25 11:12:26",
+    "usage_count": 1
+  },
+  "525668": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 11:12:58",
+    "last_used": "2025-11-25 11:15:49",
+    "usage_count": 2
+  },
+  "402852": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 11:23:33",
+    "last_used": "2025-11-25 11:23:33",
+    "usage_count": 1
+  },
+  "440137": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 11:26:12",
+    "last_used": "2025-11-25 11:26:12",
+    "usage_count": 1
+  },
+  "444735": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 11:26:31",
+    "last_used": "2025-11-25 11:26:44",
+    "usage_count": 3
+  },
+  "544317": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 11:27:21",
+    "last_used": "2025-11-25 11:27:21",
+    "usage_count": 1
+  },
+  "414718": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 11:37:16",
+    "last_used": "2025-11-25 11:37:16",
+    "usage_count": 1
+  },
+  "514908": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 11:37:37",
+    "last_used": "2025-11-25 11:37:37",
+    "usage_count": 1
+  },
+  "456541": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 11:39:03",
+    "last_used": "2025-11-25 11:39:03",
+    "usage_count": 1
+  },
+  "516320": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 11:39:15",
+    "last_used": "2025-11-25 11:44:49",
+    "usage_count": 3
+  },
+  "498511": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 11:39:32",
+    "last_used": "2025-11-25 11:39:32",
+    "usage_count": 1
+  },
+  "521333": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 11:46:13",
+    "last_used": "2025-11-25 11:46:13",
+    "usage_count": 1
+  },
+  "451336": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 11:46:59",
+    "last_used": "2025-11-25 11:46:59",
+    "usage_count": 1
+  },
+  "493000": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 11:47:23",
+    "last_used": "2025-11-25 11:47:23",
+    "usage_count": 1
+  },
+  "486796": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 11:47:52",
+    "last_used": "2025-11-25 11:47:52",
+    "usage_count": 1
+  },
+  "454491": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 11:48:18",
+    "last_used": "2025-11-25 11:48:18",
+    "usage_count": 1
+  },
+  "461994": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 11:48:32",
+    "last_used": "2025-11-25 11:48:32",
+    "usage_count": 1
+  },
+  "515948": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 11:49:22",
+    "last_used": "2025-11-25 11:49:22",
+    "usage_count": 1
+  },
+  "524105": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 11:49:58",
+    "last_used": "2025-11-25 11:49:58",
+    "usage_count": 1
+  },
+  "435603": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 11:50:38",
+    "last_used": "2025-11-25 13:46:04",
+    "usage_count": 3
+  },
+  "409355": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 13:46:14",
+    "last_used": "2025-11-25 13:46:14",
+    "usage_count": 1
+  },
+  "451992": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 13:52:18",
+    "last_used": "2025-11-25 14:24:55",
+    "usage_count": 2
+  },
+  "413154": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 13:52:50",
+    "last_used": "2025-11-25 13:59:51",
+    "usage_count": 2
+  },
+  "418666": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 13:53:56",
+    "last_used": "2025-11-25 13:53:56",
+    "usage_count": 1
+  },
+  "463467": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 13:56:13",
+    "last_used": "2025-11-25 13:56:13",
+    "usage_count": 1
+  },
+  "519075": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 15:43:02",
+    "last_used": "2025-11-25 15:43:02",
+    "usage_count": 1
+  },
+  "457553": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 15:46:00",
+    "last_used": "2025-11-25 15:46:00",
+    "usage_count": 1
+  },
+  "552115": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 15:48:06",
+    "last_used": "2025-11-25 15:48:06",
+    "usage_count": 1
+  },
+  "514420": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 15:48:31",
+    "last_used": "2025-11-25 15:48:31",
+    "usage_count": 1
+  },
+  "230744": {
+    "card_type": "UNKNOWN",
+    "first_used": "2025-11-25 15:49:50",
+    "last_used": "2025-11-25 15:50:10",
+    "usage_count": 2
+  },
+  "518088": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 15:52:38",
+    "last_used": "2025-11-25 15:52:38",
+    "usage_count": 1
+  },
+  "451991": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 15:53:51",
+    "last_used": "2025-11-25 15:53:51",
+    "usage_count": 1
+  },
+  "601100": {
+    "card_type": "DISCOVER",
+    "first_used": "2025-11-25 15:58:22",
+    "last_used": "2025-11-25 16:06:27",
+    "usage_count": 3
+  },
+  "517805": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 15:58:34",
+    "last_used": "2025-11-25 15:59:55",
+    "usage_count": 2
+  },
+  "411600": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 15:59:35",
+    "last_used": "2025-11-25 15:59:35",
+    "usage_count": 1
+  },
+  "416995": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 16:00:01",
+    "last_used": "2025-11-25 16:00:01",
+    "usage_count": 1
+  },
+  "463505": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 16:01:23",
+    "last_used": "2025-11-25 16:01:23",
+    "usage_count": 1
+  },
+  "475833": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 16:07:40",
+    "last_used": "2025-11-25 16:07:40",
+    "usage_count": 1
+  },
+  "553116": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 16:08:04",
+    "last_used": "2025-11-25 16:08:04",
+    "usage_count": 1
+  },
+  "461046": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 16:08:34",
+    "last_used": "2025-11-25 16:11:21",
+    "usage_count": 2
+  },
+  "480602": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 16:10:06",
+    "last_used": "2025-11-25 16:10:06",
+    "usage_count": 1
+  },
+  "402087": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 16:10:26",
+    "last_used": "2025-11-25 16:10:26",
+    "usage_count": 1
+  },
+  "481583": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 16:10:47",
+    "last_used": "2025-11-25 16:10:47",
+    "usage_count": 1
+  },
+  "426370": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 16:11:52",
+    "last_used": "2025-11-25 16:11:52",
+    "usage_count": 1
+  },
+  "491277": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 16:12:15",
+    "last_used": "2025-11-25 16:12:15",
+    "usage_count": 1
+  },
+  "410039": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 16:13:13",
+    "last_used": "2025-11-25 16:13:13",
+    "usage_count": 1
+  },
+  "557988": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 16:28:26",
+    "last_used": "2025-11-25 16:28:26",
+    "usage_count": 1
+  },
+  "557619": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 16:28:53",
+    "last_used": "2025-11-25 16:28:53",
+    "usage_count": 1
+  },
+  "544612": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 16:37:35",
+    "last_used": "2025-11-25 16:37:35",
+    "usage_count": 1
+  },
+  "517279": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 16:38:16",
+    "last_used": "2025-11-25 16:38:16",
+    "usage_count": 1
+  },
+  "519509": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 16:39:57",
+    "last_used": "2025-11-25 16:39:57",
+    "usage_count": 1
+  },
+  "524651": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 16:40:21",
+    "last_used": "2025-11-25 16:40:21",
+    "usage_count": 1
+  },
+  "540669": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 16:40:35",
+    "last_used": "2025-11-25 16:40:35",
+    "usage_count": 1
+  },
+  "428455": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 16:43:29",
+    "last_used": "2025-11-25 17:27:21",
+    "usage_count": 2
+  },
+  "413331": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 17:27:21",
+    "last_used": "2025-11-25 17:35:11",
+    "usage_count": 2
+  },
+  "526807": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 17:47:54",
+    "last_used": "2025-11-25 17:49:28",
+    "usage_count": 2
+  },
+  "408181": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 17:49:55",
+    "last_used": "2025-11-25 17:49:55",
+    "usage_count": 1
+  },
+  "413987": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 17:50:16",
+    "last_used": "2025-11-25 17:50:16",
+    "usage_count": 1
+  },
+  "528566": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 17:50:34",
+    "last_used": "2025-11-25 17:50:34",
+    "usage_count": 1
+  },
+  "538660": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 17:51:07",
+    "last_used": "2025-11-25 17:51:07",
+    "usage_count": 1
+  },
+  "414030": {
+    "card_type": "VISA",
+    "first_used": "2025-11-25 17:51:42",
+    "last_used": "2025-11-25 17:51:42",
+    "usage_count": 1
+  },
+  "538019": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 17:52:21",
+    "last_used": "2025-11-25 17:52:21",
+    "usage_count": 1
+  },
+  "559604": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 17:52:51",
+    "last_used": "2025-11-25 17:52:51",
+    "usage_count": 1
+  },
+  "540219": {
+    "card_type": "MASTERCARD",
+    "first_used": "2025-11-25 17:53:09",
+    "last_used": "2025-11-26 07:44:25",
+    "usage_count": 2
+  },
+  "462239": {
+    "card_type": "VISA",
+    "first_used": "2025-11-26 07:44:26",
+    "last_used": "2025-11-26 07:44:26",
+    "usage_count": 1
+  }
+}
